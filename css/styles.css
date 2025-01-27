@@ -1,0 +1,179 @@
+:root{
+    --primary-color: #880404;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../Images/background.jpg');
+    background-size: auto; 
+    background-repeat: repeat; 
+    height: 100vh;
+    margin: auto;
+}
+
+main h2{
+    font-size: 20px;
+}
+
+
+.nav_top {
+    background-color: var(--primary-color);
+     
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_top h1 {
+    color: white;
+    padding-right: 15em;
+}
+
+.container {
+    display: flex;
+    width: 730px;
+    margin: 0 auto;
+}
+
+.title{
+    padding-top: 1em;
+    width: 730px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.first_sect p a {
+    color: #880404;
+}
+
+.first_sect, .second_sect, .third_sect, .fourth_sect {
+    width: 700px;
+    margin: 20px auto;
+    background-color: #d8d4d4;
+    border: 2px solid #8a8888; 
+    padding: 16.4px; 
+}
+
+.link{
+    width: 730px;
+    margin: 0 auto;
+}
+
+.first_sect ul {
+    display: flex;
+    list-style-type: none;
+    gap: 4px;
+}
+
+
+
+.first_sect button {
+    font-size: 14px; 
+    border:none;
+    padding: 8px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+.second_sect, .third_sect {
+    display: flex;
+}
+
+.second_sect img, .third_sect img {
+    width: 250px;
+}
+
+.one-two {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+.one-two input{
+    width: 250px; 
+    height: 25px;
+}
+
+.one-two select {
+    width: 120px; 
+    height: 30px;
+}
+
+.fourth_sect form p button {
+    width: 120px; 
+    height: 25px;
+}
+
+.link p a {
+    color: #880404;
+    font-style: italic;
+}
+
+
+
+.nav_top img {
+    width: 180px; 
+    height: 50px; 
+    padding-top: 10px;
+}
+
+.nav_buttom {
+    background-color: black;
+    padding: 5px 0;
+    
+}
+
+.nav_buttom ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_buttom ul li {
+    margin: 0 10px;
+
+}
+
+.nav_buttom ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.nav_buttom ul li :hover{
+    text-decoration: underline;
+}
+
+
+footer {
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 380px;  
+
+}
+
+footer a, footer p {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: white;
+}
+
+
+
+
+  

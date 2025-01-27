@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragonBallZ</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+            <nav>
+                <div class="nav_top">
+                    <div class="container"> 
+                        <h1>Dragon Ball Z</h1>
+                        <img src="Images/Logo.webp" alt="Website's logo">
+                    </div>
+                </div>
+                <div class="nav_buttom">
+                    <div class="container">
+                        <ul>
+                            <li><a href="#first_sect">ACCEUIL</a></li>
+                            <li><a href="#second_sect">GOKU</a></li>
+                            <li><a href="#third_sect">PICCOLO</a></li>
+                            <li><a href="#fourth_sect">COMMANDER UNE SAISON</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+    </header>
+    <main>
+        <h2 class="title">Acceuil</h2>
+        <section id="first_sect" class="first_sect">
+            <h2>Univers</h2>
+            <p>Comme dans <a href="https://fr.wikipedia.org/wiki/Dragon_Ball" target="_blank">Dragon Ball</a>, <a href="https://fr.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank">Dragon Ball Z</a> se déroule dans plusieurs univers ou les combats entre le bien et le mal sont omniprésents. Un élément central de l'histoire, c'est les boules de cristal. Si tu réussis à réunir les septs boules, tu peux exaucer n'importe quel voeu en invoquant Shenron, le dragon associé au Tout-Puissant. Ces boules de cristal sont souvent au coeur des conflits de la saga, car elles ont le pouvoir de rendre immortel. Presque tous les grands méchats de <a href="https://fr.wikipedia.org/wiki/Dragon_Ball" target="_blank">Dragon Ball</a> et <a href="https://fr.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank">Dragon Ball Z</a> les convoitent, comme Vegeta, Freezer, Garlic Junior et Piccolo.</p>
+            <h2>Inspiration</h2>
+            <p><a href="https://fr.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank">Dragon Ball Z</a> est la suite de l'adaptation télé du manga <a href="https://fr.wikipedia.org/wiki/Dragon_Ball" target="_blank">Dragon Ball</a> qui a marqué toute une génération. Par contre, cette adaptation est plus libre que la première partie de l'oeuvre. La production y a ajouté pas mal de censure et de nombreux épisodes "fillers", créés par l'équipe d'animation, qui ne suivent pas toujours fidèlement le manga original.</p>
+            <h2>La télésérie Dragon Ball Z</h2>
+            <ul>
+                <li><button>Saison 1</button></li>
+                <li><button>Saison 2</button></li>
+                <li><button>Saison 3</button></li>
+                <li><button>Saison 4</button></li>
+                <li><button>Saison 5</button></li>
+                <li><button>Saison 6</button></li>
+                <li><button>Saison 7</button></li>
+                <li><button>Saison 8</button></li>
+                <li><button>Saison 9</button></li>
+            </ul>
+        </section>
+        <section id="second_sect" class="second_sect">
+            <div>
+                <h2>Goku</h2>
+            <p>Goku vit seul dans les montagnes, loin de la ville. Il a hérité d'une boule à quatre étoiles, une Dragon Ball, qu'il garde comme souvenir de son grand-père Son Gohan. C'est là qu'il rencontre une adolescente, Bulma, avec qui il se lie d'amitié.</p>
+            </div>
+            <img src="Images/Goku.png" alt="Image of Goku">
+        </section>
+        <section id="third_sect" class="third_sect">
+            <img src="Images/Picolo.png" alt="Image of Goku">
+            <div>
+                <h2>Piccolo</h2>
+            <p>Piccolo, un ancien rival devenu allié de Goku, est un guerrier puissant et stratégique. Né du démon Piccolo, il a hérité de ses connaissances et de sa disciplin. Vivant souvent en retrait pour méditer et s'entraîner, il est animé par un fort sens du devoir et uné volonré de protéger la terre bien qu'il puisse sembler austère, il développe une relation surprenante avec Gohan, le fils de Goku, qu'il considère presque comme un protégé.</p>
+            </div>
+        </section>
+        <section id="fourth_sect" class="fourth_sect">
+            <h2>Commander une saison de la télésérie</h2>
+            <form action="#" method="post">
+                <p class="one-two">
+                    <label for="nom">Votre nom:</label>
+                    <input type="text" name="nom" id="nom" placeholder="votre nom" required="required"/>
+                </p>
+                <p class="one-two">
+                    <label for="courriel">Courriel:</label>
+                    <input type="email" name="courriel" id="courriel" placeholder="votre courriel" required="required"/>
+                </p>
+                <p class="one-two">
+                    <label for="choix">Quelle saison commander?</label>
+                    <select name="choix" id="choix">
+                        <option value="saison1">1</option>
+                        <option value="saison2">2</option>
+                        <option value="saison3">3</option>
+                        <option value="saison4">4</option>
+                        <option value="saison5">5</option>
+                        <option value="saison6">6</option>
+                        <option value="saison7">7</option>
+                        <option value="saison8">8</option>
+                        <option value="saison9">9</option>
+                    </select>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="accept" id="accept" required="required" />
+                        S'abonner au newsletter?
+                    </label>
+                </p>
+                <p>
+                    <button>
+                        Envoyer
+                    </button>
+                </p>
+
+            </form>
+        </section>
+        <div class="link">
+            <p>Textes tirés de <a href="https://fr.wikipedia.org/wiki/Dragon_Ball_Z" target="_blank">https://fr.wikipedia.org/wiki/Dragon_Ball_Z</a>.</p>
+        </div>
+        
+    </main>
+    <footer>
+        <h3>Développement web coté client</h3>
+        <p><a href="#">FR</a> | <a href="#">EN</a></p>
+    </footer>
+</body>
+
+</html>
